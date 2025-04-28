@@ -30,12 +30,6 @@ https://calm-connect-ochre.vercel.app/
 You can login as a test@test.com
 password: test
 
-### Developers:
-
-Akhmad Mamirov
-Saidamir Osimov
-Jojo Jordan
-
 ### Track your mood over time
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/7345611d-082b-474f-afaa-d9a495625490" />
@@ -47,3 +41,7 @@ Jojo Jordan
 ### Sharing your progress
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4baa056a-053c-463e-8f56-a632bd536802" />
+
+### Developers:
+
+Akhmad Mamirov, Saidamir Osimov, Jojo Jordan
