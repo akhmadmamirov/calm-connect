@@ -1,8 +1,10 @@
 
 import { useState } from "react";
-import { Search as SearchIcon } from "lucide-react";
+import { ArrowLeft, Search as SearchIcon } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { BottomNav } from "@/components/navigation/BottomNav";
+import { useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
 // Mock search results - in a real app these would come from an API
 const mockResults = [
@@ -23,7 +25,7 @@ const mockResults = [
 export default function SearchPage() {
   const [searchTerm, setSearchTerm] = useState("dogs");
   const [results, setResults] = useState(mockResults);
-
+  const navigate = useNavigate();
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     // In a real app, this would fetch results from an API
@@ -33,6 +35,9 @@ export default function SearchPage() {
   return (
     <div className="min-h-screen pb-20">
       <div className="p-6">
+        <Button variant="ghost" size="sm" className="mb-4" onClick={() => navigate(-1)}>
+          <ArrowLeft className="h-4 w-4 mr-2" /> Back
+        </Button>
         <h1 className="text-3xl font-bold mb-6">Search</h1>
         
         <form onSubmit={handleSearch} className="mb-6">
