@@ -22,14 +22,28 @@ npm run dev
 ```
 
 ### 3. Vercel deployment
+
 https://calm-connect-ochre.vercel.app/
 
+### 4. Test user
+
+You can login as a test@test.com
+password: test
+
+### Developers:
+
+Akhmad Mamirov
+Saidamir Osimov
+Jojo Jordan
+
 ### Track your mood over time
+
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/7345611d-082b-474f-afaa-d9a495625490" />
 
 ### Explore inspiring content
+
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/d56958ee-c115-4489-bf27-0d0c79570ec2" />
 
 ### Sharing your progress
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4baa056a-053c-463e-8f56-a632bd536802" />
 
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/4baa056a-053c-463e-8f56-a632bd536802" />
