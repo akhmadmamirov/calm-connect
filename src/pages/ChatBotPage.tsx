@@ -23,7 +23,7 @@ export default function ChatbotPage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-blue-50 p-4">
       <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6 flex flex-col space-y-4">
-        <h1 className="text-2xl font-bold text-center text-blue-700">Calm-Connect 🤍</h1>
+        <h1 className="text-2xl font-bold text-center text-blue-700">Chatherapist 🤍</h1>
         <div className="flex-1 overflow-y-auto max-h-80 p-2 border rounded-md bg-gray-50">
           {messages.map((msg, index) => (
             <div
