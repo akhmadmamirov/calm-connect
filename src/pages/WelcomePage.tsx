@@ -3,14 +3,17 @@ import { Link } from "react-router-dom";
 import { MarbleBackground } from "@/components/ui/marble-background";
 import { Button } from "@/components/ui/button";
 import { UserAvatar } from "@/components/ui/user-avatar";
-import { CircleArrowDown } from "lucide-react";
 
 export default function WelcomePage() {
   return (
     <MarbleBackground>
       <div className="flex flex-col items-center justify-between min-h-screen p-6 bg-gradient-to-b from-[#D3E4FD] to-[#E5DEFF]">
+       {/* Add a logo to the top left */}
+        <div className="absolute top-4 left-4">
+          <img width="100" height="100" src="calmy.png" alt="" />
+        </div>
+
         <div className="w-full"></div>
-        
         <div className="text-center mb-12 animate-fade-in">
           <h1 className="text-3xl font-bold mb-6 text-thrive-dark-blue drop-shadow-sm">Welcome back Jo!</h1>
           <div className="mb-4">

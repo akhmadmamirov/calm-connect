@@ -9,6 +9,7 @@ import { BottomNav } from "@/components/navigation/BottomNav";
 import { Button } from "@/components/ui/button";
 import { useNavigate, Link } from "react-router-dom";
 import { selfCareItems, moodData } from "@/data/common";
+import { Search } from "lucide-react";
 
 export default function DashboardPage() {
   const { user, isAuthenticated } = useAuth();
@@ -48,7 +49,9 @@ export default function DashboardPage() {
     <div className="min-h-screen pb-20">
       <div className="p-7">
         <div className="mb-6">
-          <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
+          <div className="flex justify-center items-center">
+            <img width='100' src="calmy.png" alt="" />
+          </div>
           <div className="flex justify-between items-center flex-wrap gap-4 mb-4 p-4 bg-muted rounded-lg border border-muted-foreground/10">
             <div className="flex items-center gap-4">
               <UserAvatar name={user.name} image={user.avatar} size="lg" />
@@ -67,7 +70,7 @@ export default function DashboardPage() {
                 className="bg-thrive-purple text-white px-6 py-3 rounded-md text-sm font-semibold shadow-md transition-all"
                 onClick={handleCrisisResources}
               >
-                ☎️ My Resources
+                ☎️ Resources
               </Button>
             </div>
           </div>
@@ -134,7 +137,10 @@ export default function DashboardPage() {
           </div>
         </div>
         <div>
-          <h3 className="text-lg font-medium mb-4">Self care tips</h3>
+          <div className="flex justify-between">
+            <h3 className="text-lg font-medium mb-4">Self care tips</h3>
+            <Link to="/search"><Search className="h-5 w-5"/></Link>
+          </div>
           <div className="grid grid-cols-2 gap-4">
             {selfCareItems.map(item => (
               <Link to={item.link} key={item.id} className="block">
