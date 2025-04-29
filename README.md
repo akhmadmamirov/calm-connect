@@ -44,4 +44,4 @@ password: test
 
 ### Developers:
 
-Akhmad Mamirov, Saidamir Osimov, Jojo Jordan
+Akhmad Mamirov, Saidamir Osimov, Joseph Jordan
