@@ -44,4 +44,9 @@ password: test
 
 ### Developers:
 
-Akhmad Mamirov, Saidamir Osimov, Joseph Jordan
+- Product Owner (Akhmadillo) Owns product vision, manages priorities, accepts deliverables
+- Scrum Master (JoJo) Supports all teams, removes blockers, leads sprints, and ensures direction
+- QA Lead (Saidamir) Overseesquality across teams, creates testing standards, coordinates QA Testers
+
+
+
